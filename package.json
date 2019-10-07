@@ -18,7 +18,8 @@
     "react-family",
     "ie8"
   ],
-  "author": "brickspert",
+  "author": "",
+  "homepage":".",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
