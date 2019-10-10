@@ -19,6 +19,7 @@ const devConfig = {
         contentBase: path.join(__dirname, './dist'),
         historyApiFallback: true,
         host: '0.0.0.0',
+        port: 3000
     }
 };
 

@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import store from './redux/store';
-import {HashRouter as Router} from 'react-router-dom';
-import App from 'components/App/App';
+import { HashRouter } from 'react-router-dom'
+import Layout from './components/Layout';
+import App from './App'
+import Router from './router/router'
 import 'antd/dist/antd.css';
 
 
 ReactDom.render(
-    <Provider store={store}>
-        <Router>
-            <App/>
-        </Router>
-    </Provider>,
+    <HashRouter>
+        <Provider store={store}>
+            <Router />
+        </Provider>
+    </HashRouter>,
     document.getElementById('app')
 );
 

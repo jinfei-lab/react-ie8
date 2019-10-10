@@ -4,7 +4,7 @@ import './Page1.css';
 
 import image from './images/brickpsert.jpg';
 
-export default class Page1 extends Component {
+export default class Page1 extends React.Component {
     render() {
         return (
             <div className="page-box">
