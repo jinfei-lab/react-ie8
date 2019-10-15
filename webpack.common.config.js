@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: JF
+ * @Date: 2019-10-14 14:51:45
+ * @LastEditors: 
+ * @LastEditTime: 2019-10-14 16:30:53
+ */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
